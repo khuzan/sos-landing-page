@@ -16,7 +16,7 @@ body {/*
   -o-background-size: cover;*/
   font-family: 'Montserrat', sans-serif;
   /*background: #f0f0f0;*/
-  background: url('../img/greenboard.jpg');
+  background: url('../img/greenboard1.jpg');
 }
 
 .pad-top{
@@ -208,7 +208,6 @@ hr.style2{
 }
 footer{
   color: #ffffff;
-  background-color: #333 !important;
 }
 /*our team css*/
 

@@ -16,7 +16,7 @@ a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
 img {border: 0;}
 
 body {
-	background: url('../img/greenboard.jpg');
+	background: url('../img/greenboard1.jpg');
 	/*background: #f0f0f0;*/
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
@@ -165,7 +165,6 @@ body {
 }
 footer {
     color: #ffffff;
-    background-color: #333 !important;
 }
 /* Member Image Hover Effect */
 .hover_img {
