@@ -16,6 +16,8 @@
     <!-- google font -->
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+   <!-- register css -->
+   <link rel="stylesheet" type="text/css" href="css/register.css">
     <!-- font awesome -->
    <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
 
@@ -64,8 +66,43 @@
       </div>
     </nav>
 
-    <div class="bg bg-contact"></div>
+   <!--  <div class="bg bg-contact"></div> -->
+    <!-- LOGIN FORM  -->
+    <div class="container-1">
+      <div class="profile">
+        <div class="profile__form">
+          <div class="profile__fields">
+            <div class="field">
+              <input type="text" id="fieldUser" class="input" required pattern=.*\S.* />
+              <label for="fieldUser" class="label">Full Name</label>
+            </div>
+            <div class="field">
+              <input type="text" id="address" class="input" required pattern=.*\S.* />
+              <label for="address" class="label">Email Address</label>
+            </div>
+            <div class="field nomarginBtm">
+              <input type="password" id="fieldPassword" class="input" required pattern=.*\S.* />
+              <label for="fieldPassword" class="label">Password</label>
+            </div>
+            <div class="field">
+              <div class="form-group terms-conditions">
+                <input id="license" type="checkbox" class="checkbox-template">
+                <label for="license">Agree the terms and policy</label>
+              </div>
+            </div>
+            <div class="profile__footer">
+              <button class="btn">Register</button>
+            </div>
+            <div class="field nomarginBtm">
+              <span>Already have an account?</span><a href="#">Login</a>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+    <!-- END LOGIN -->
     <div class="wrapper">
+      
           <div class="p-4 my-4" id="contact">
             <div class="container">
               <div class="row">
@@ -157,3 +194,12 @@
   </body>
 
 </html>
+<script type="text/javascript">
+  /* Simple VanillaJS to toggle class */
+
+document.getElementById('toggleProfile').addEventListener('click', function () {
+  [].map.call(document.querySelectorAll('.profile'), function(el) {
+    el.classList.toggle('profile--open');
+  });
+});
+</script>

@@ -17,85 +17,10 @@ body {
   background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);*/
   background: url('img/greenboard.jpg');
 }
-.profile img {
-  vertical-align: middle;
-  max-width: 100%;
-  border: 3px solid #fff;
-  margin-bottom: 50px;
-}
-button {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-}
-.nomarginBtm{
-  margin-bottom: 0 !important;
+.container-1{
+  padding: 50px 250px;
 }
 
-/* Container */
-
-
-/* Profile Card */
-.profile {
-  position: relative;
-}
-.profile--open {
-}
-.profile--open .profile__form {
-  visibility: visible;
-  height: auto;
-  opacity: 1;
-  transform: translateY(-6em);
-  padding-top: 10em;
-}
-.profile--open .profile__fields {
-  opacity: 1;
-  visibility: visible;
-}
-.profile--open .profile__avatar {
-  transform: translate(-50%, -1.5em);
-  /*border-radius: 50%;*/
-}
-.profile__form {
-  position: relative;
-  background: url('../img/greenboard.jpg');
-  visibility: hidden;
-  opacity: 0;
-  height: 0;
-  padding: 3em;
-  border-radius: .25em;
-  -webkit-filter: drop-shadow(0 0 2em rgba(0,0,0,0.2));
-  transition: 
-    opacity .4s ease-in-out,
-    height .4s ease-in-out,
-    transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-    padding .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.profile__fields {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.profile__avatar {
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  transform: translateX(-50%);
-  /*border-radius: 1.25em;*/
-  overflow: hidden;
-  width: 4.5em;
-  height: 4.5em;
-  display: block;
-  transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  will-change: transform;
-}
-.profile__avatar:focus {
-  outline: 0;
-}
-.profile__footer {
-  padding-top: 1em;
-}
 
 
 /* Form */
