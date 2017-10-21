@@ -92,8 +92,9 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #212529;
+  /*color: #212529;*/
   background-color: #fff;
+  
 }
 
 [tabindex="-1"]:focus {
@@ -618,7 +619,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 970px;
   }
 }
 
@@ -3251,6 +3252,7 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 3px;
+
 }
 
 .navbar > .container,
@@ -3595,7 +3597,7 @@ tbody.collapse.show {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: white;
+  color: #b10000;
 }
 
 .navbar-light .navbar-toggler {
@@ -8098,8 +8100,8 @@ a.bg-dark:focus, a.bg-dark:hover {
   font-style: italic;
 }
 
-.text-white {
-  color: #fff !important;
+.text-red {
+  color: #ca0000 !important;
 }
 
 .text-primary {

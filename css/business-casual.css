@@ -15,18 +15,37 @@ body {/*
   background-size: cover;
   -o-background-size: cover;*/
   font-family: 'Montserrat', sans-serif;
-  background: rgb(113, 0, 0);
+  /*background: #f0f0f0;*/
+  background: url('../img/greenboard.jpg');
+}
 
+.pad-top{
+  padding-top: 20px;
+}
 
+.text-green{
+  color: #6ca763 !important;
 }
 
 h1, h2, h3, h4, h5, h6, .text-heading {
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
+  
 }
 
 h1 {
   font-size: 4rem;
+}
+
+.text-black{
+  color: #383838;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  /*color: #8e4e4e !important;*/
+}
+
+.navbar-light .navbar-brand{
+  color: #ffffff !important;
 }
 
 .tagline-upper {
@@ -34,12 +53,14 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1;
+  color: #fff;
 }
 
 .tagline-lower {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   line-height: 1;
+  color: #fff;
 }
 
 .text-expanded {
@@ -55,7 +76,7 @@ h1 {
 }
 
 .bg-faded {
-  background: rgba(113, 0, 0, 0.91);
+  background: rgba(241, 241, 241, 0.07);
  /* background-color: rgba(142, 0, 0, 0.72);*/
 }
 
@@ -123,10 +144,10 @@ hr.divider {
   background-size: cover;
 }
 .bg-about{
-  background-image: url('../img/save.jpg');
+  background-image: url('../img/save1.jpg');
 }
 .bg-members{
-  background-image: url('../img/kid.jpg');
+  background-image: url('../img/header.jpg');
 }
 .bg-blog{
   background-image: url('../img/manobo.jpg');
@@ -134,9 +155,7 @@ hr.divider {
 .bg-contact{
   background-image: url('../img/NPhil1.jpeg');
 }
-.bg-developer{
-  background-image: url('../img/header.jpg');
-}
+
 #about,
 #members,
 #blog,
@@ -160,6 +179,7 @@ hr.style2{
   float: left;
 }
 .con-p{
+  text-align: justify;
   margin-top: 20px;
   color: #8d8d8d;
   font-size: 15px;  
@@ -263,11 +283,5 @@ footer{
     border: 1px solid rgba(208, 206, 206, 0.61);
     padding: 20px;
   }
-  /* for our team*/
-  .row1{
-    margin-right: 100px;
-  }
-  #speakers p{
-    margin-right: 100px;
-  }
+  
 }

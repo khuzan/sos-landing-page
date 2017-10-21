@@ -914,26 +914,3 @@ hr {
     margin-left: 0%;
   }
 }
-/*YEAH*/
-.tagline-upper {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 4.8rem !important;
-    font-weight: 700;
-    line-height: 1;
-}
-.tagline-lower {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 1.9rem !important;
-    line-height: 1;
-}
-.nav-link {
-    font-size: 13px !important;
-    margin-left: 43px !important;
-    color: #c7c7c7;
-}
-.mt-5 {
-  margin-top: 5rem !important;
-}
-.mb-5 {
-  margin-bottom: 4.1rem !important;
-}
