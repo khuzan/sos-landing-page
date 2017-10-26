@@ -3663,10 +3663,12 @@ tbody.collapse.show {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(103, 0, 0, 0.21);
   border-radius: 0.25rem;
 }
-
+.card:hover{
+  box-shadow: 1px 1px 1px rgba(162, 7, 7, 0.42);
+}
 .card-body {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
